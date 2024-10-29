@@ -1,0 +1,36 @@
+body {
+    background-color: #f0ecec;
+}
+
+header#Logo {
+    text-align: left;
+}
+
+header {
+    font: 15pt arial;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    background-color: #79acec;
+    font: 12pt arial;
+    text-align: center;
+    width: 500px;
+    height: 910px;
+    line-height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 5px 15px black;
+}
+
+footer {
+    font: italic 12pt Arial;
+}
+
+footer#Lista {
+    margin: auto;
+    text-align: center;
+    font: 12pt arial;
+}
+

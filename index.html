@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header id="Logo">
+        <a href="https://online.mogidascruzes.sp.gov.br/intranet/" target="_blank">
+            <img src="Logo Prefeitura.png" alt="">
+        </a>
+    </header>
+
+    <header>
+        <h1>Triagem de andamentos processuais</h1>
+    </header>
+
+    <div>
+        <p>Selecione os ocorridos no processo para identificar o andamento</p>
+        <p><STROng>O Executado tem CPF/CNPJ?</STROng></p>
+        <select id="opcoes0" name="opcoes" style="width: 100px;">
+            <option value="Nenhum">Nenhum</option>
+            <option value="Sim">Sim</option>
+            <option value="Não">Não</option>
+        </select>
+        <br>
+        +
+        <p><STROng>Insira quem é o Executado (PF, LTDA ou EI)</STROng></p>
+        <select id="opcoes1" name="opcoes" style="width: 100px;">
+            <option value="Nenhum">Nenhum</option>
+            <option value="Limitada">Limitada</option>
+            <option value="Empresário Individual">Empresário Individual</option>
+            <option value="Pessoa Física">Pessoa Física</option>
+        </select>
+        <br>
+        +
+        <br>
+        <p><STROng>Informe se a dívida é IMOB ou MOB</STROng></p>
+        <select id="opcoes2" name="opcoes" style="width: 100px;">
+            <option value="Nenhum">Nenhum</option>
+            <option value="Imobiliária">Imobiliária</option>
+            <option value="Mobiliária">Mobiliária</option>
+        </select>
+        <br>
+        +
+        <br>
+        <p><STROng>Informe se o AR foi positivo ou negativo</STROng></p>
+        <select id="opcoes3" name="opcoes" style="width: 100px;">
+            <option value="Nenhum">Nenhum</option>
+            <option value="AR positivo">AR positivo</option>
+            <option value="AR negativo">AR negativo</option>
+            <option value="Não houve Citação">Não houve Citação</option>
+        </select>
+        <br>
+        <input type="button" value="Descobrir andamento" onclick="clicar()">
+        <br>
+        <p id="resultado">Deverá ser realizada(o) um(a): </p>
+        <input type="button" value="Clique aqui para ver o Manual do Estagiário - 2024" onclick="abrirmanual()">
+    </div>
+
+<br>
+<br>
+    <script src="código.js"></script>
+
+    <footer>
+        <br>
+        <strong>Feito por Enzo Andrés Rodrigues. RGF: 97435 - Atualizado em 10/2024 e formulado com base no Manual do Estagiário - 2024</strong>
+    </footer>
+    <br>
+
+</body>
+</html>
