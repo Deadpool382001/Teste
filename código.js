@@ -35,3 +35,9 @@ function clicar() {
 function abrirmanual() {
     window.open('MANUALDOESTAGIÁRIODESCOMPLICADO2024.pdf', '_blank')
 }
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') { // Verifica se a tecla pressionada é 'Enter'
+        clicar(); // Chama a função clicar()
+    }
+});
