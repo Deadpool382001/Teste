@@ -7,7 +7,7 @@ function clicar() {
     var convl1 = l1.value
     var convl2 = l2.value
     var convl3 = l3.value
-    if (convl0 == "Sim" && convl1 == "Limitada" && convl2 == "Imobiliária" && convl3 == "AR positivo" || convl0 == "Sim" && convl1 == "Pessoa Física" && convl2 == "Imobiliária" && convl3 == "AR positivo" || convl0 == "Sim" && convl1 == "Pessoa Física" && convl2 == "Mobiliária" && convl3 == "AR positivo") {
+    if (convl0 == "Sim" && convl1 == "Limitada" && convl2 == "Mobiliária" && convl3 == "AR positivo" || convl0 == "Sim" && convl1 == "Limitada" && convl2 == "Imobiliária" && convl3 == "AR positivo" || convl0 == "Sim" && convl1 == "Pessoa Física" && convl2 == "Imobiliária" && convl3 == "AR positivo" || convl0 == "Sim" && convl1 == "Pessoa Física" && convl2 == "Mobiliária" && convl3 == "AR positivo") {
         window.document.querySelector("p#resultado").innerHTML = "Deverá ser realizado(a) um(a): <strong>Penhora Online<strong/>" //Penhora online de Limitada e Pessoa Física
     } else
     if (convl0 == "Sim" && convl1 == "Pessoa Física" && convl2 == "Imobiliária" && convl3 == "AR negativo" || convl0 == "Sim" && convl1 == "Pessoa Física" && convl2 == "Mobiliária" && convl3 == "AR negativo") {
